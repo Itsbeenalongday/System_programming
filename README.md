@@ -27,3 +27,16 @@ $ java -jar out/make/sictools.jar <file_name>
 + make jar error
   - javafx가 포함되지 않아서 일어나는 에러
   - [해결법 링크](https://askubuntu.com/questions/1137891/how-to-install-run-java-8-and-javafx-on-ubuntu-18-04)
+
++ error 해결 명령어 set
+```shell
+$ sudo apt install \
+  openjfx=8u161-b12-1ubuntu2 \
+  libopenjfx-java=8u161-b12-1ubuntu2 \
+  libopenjfx-jni=8u161-b12-1ubuntu2
+  
+$ sudo apt-mark hold \
+  openjfx \
+  libopenjfx-java \
+  libopenjfx-jni
+```
