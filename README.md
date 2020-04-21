@@ -25,7 +25,9 @@ $ make jar
 $ java -jar out/make/sictools.jar <file_name>
 ```
 + make jar error
-  - javafx가 포함되지 않아서 일어나는 에러
+  - sictools 을 설치할 때 make jar 명령어로 빌드를 수행하면 javafx 관련 에러가 나오는 경우가 있습니다.   
+    최근 배포되는 자바 sdk 에 jafafx (GUI 라이브러리) 가 기본 탑재되어서 나오지 않는 것으로 변경되어 발생하는 오류로 보여집니다.   
+    아래 명령어로 missing dependency 를 해결해주세요   
   - [해결법 링크](https://askubuntu.com/questions/1137891/how-to-install-run-java-8-and-javafx-on-ubuntu-18-04)
 
 + error 해결 명령어 set
