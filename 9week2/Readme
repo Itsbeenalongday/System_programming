@@ -1,0 +1,7 @@
+$ sh week9_script.sh
+
+1. remove button module and led module
+2. recompile button device driver and led driver
+3. reload button and led module onto kernel
+4. recompile control app
+5. excute control app   

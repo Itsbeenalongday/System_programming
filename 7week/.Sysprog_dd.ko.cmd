@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/workspace/7week/Sysprog_dd.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/workspace/7week/Sysprog_dd.ko /home/pi/Desktop/workspace/7week/Sysprog_dd.o /home/pi/Desktop/workspace/7week/Sysprog_dd.mod.o ;  true
